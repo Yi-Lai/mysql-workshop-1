@@ -1,0 +1,28 @@
+Create a data model representing a Barn with Chickens 🐣
+This model should provide answers to the following questions:
+How many rooster, hen and chicks existed in the Barn on a specific date
+How many chicks will come to age on a specific date
+
+CREATE TABLE Animals (Date DATE, Chickens INTEGER, Hens INTEGER, Roosters INTEGER); 
+INSERT INTO Animals (Date, Chickens, Hens, Roosters)VALUES("2015-01-30","32","21","32"); 
+
+mysql> SELECT * FROM Animals; 
++---------------------+----------+------+----------+
+| Date                | Chickens | Hens | Roosters |
++---------------------+----------+------+----------+
+| 2015-01-30 00:00:00 |       32 |   21 |       32 |
++---------------------+----------+------+----------+
+1 row in set (0.01 sec)
+
+
+CREATE TABLE Chickens (Id INT AUTO_INCREMENT PRIMARY KEY, Birthday DATE); 
+INSERT INTO Chickens (Birthday)VALUES("2010-10-01"); 
+
+mysql> SELECT * FROM Chickens;
++----+------------+
+| Id | Birthday   |
++----+------------+
+|  0 | 2007-11-12 |
+|  1 | 2010-10-01 |
++----+------------+
+2 rows in set (0.00 sec)

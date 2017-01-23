@@ -1,0 +1,14 @@
+Return the list of databases within MySQL
+
+mysql> show databases;
++------------------------+
+| Database               |
++------------------------+
+| information_schema     |
+| c9                     |
+| decodemtl__addressbook |
+| mysql                  |
+| performance_schema     |
+| phpmyadmin             |
++------------------------+
+6 rows in set (0.00 sec);

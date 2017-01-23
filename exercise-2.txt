@@ -1,0 +1,22 @@
+Create a database named decodemtl_test within MySQL
+Create a database named decodemtl_addressbook within MySQL
+
+mysql> CREATE DATABASE decodemtl_test;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> CREATE DATABASE decodemtl__addressbook;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> show  databases;
++------------------------+
+| Database               |
++------------------------+
+| information_schema     |
+| c9                     |
+| decodemtl__addressbook |
+| decodemtl_test         |
+| mysql                  |
+| performance_schema     |
+| phpmyadmin             |
++------------------------+
+7 rows in set (0.00 sec);

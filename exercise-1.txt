@@ -1,0 +1,4 @@
+Connect to the MySQL instance within your Workspace using your Cloud9 username
+
+yilai:~/workspace (master) $ mysql-ctl start;
+yilai:~/workspace (master) $ mysql -u yilai;

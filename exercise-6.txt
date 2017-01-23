@@ -1,0 +1,14 @@
+Remove table Test for database decodemtl_addressbook
+
+mysql> DROP TABLE Test;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> show tables;
++----------------------------------+
+| Tables_in_decodemtl__addressbook |
++----------------------------------+
+| Addressbook                      |
+| Entry                            |
+| Account                          |
++----------------------------------+
+3 rows in set (0.01 sec)
